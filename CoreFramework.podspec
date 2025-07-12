@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name                     = "CoreFramework"
-  spec.version                  = "0.0.1"
+  spec.version                  = "0.0.2"
   spec.summary                  = "A short description of CoreFramework."
 
   spec.description              = <<-DESC
@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   
 
   spec.platform                 = :ios, "12,0"
-  spec.ios.deployment_target    = "12.0"
+  spec.ios.deployment_target    = "13.0"
   spec.swift_versions           = ["5.0"]
 
   spec.source                   = { :git => "https://github.com/icaro-milet/CoreFramework" }
