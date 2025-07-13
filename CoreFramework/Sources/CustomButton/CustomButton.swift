@@ -18,17 +18,17 @@ public class CustomButton: UIButton {
     private var iconPosition: NSLayoutConstraint.Axis?
     private var customWidth: CGFloat?
     
-    init(title: String, backgroundColor: UIColor = Colors.primaryRedBase) {
+    public init(title: String, backgroundColor: UIColor = Colors.primaryRedBase) {
         super.init(frame: .zero)
         setupButton(title: title, icon: nil, iconPosition: nil, backgroundColor: backgroundColor)
     }
     
-    init(title: String, icon: UIImage, iconPosition: NSLayoutConstraint.Axis ,backgroundColor: UIColor = Colors.primaryRedBase) {
+    public init(title: String, icon: UIImage, iconPosition: NSLayoutConstraint.Axis ,backgroundColor: UIColor = Colors.primaryRedBase) {
         super.init(frame: .zero)
         setupButton(title: title, icon: icon, iconPosition: iconPosition, backgroundColor: backgroundColor)
     }
     
-    init(title: String, width: CGFloat ,backgroundColor: UIColor = Colors.primaryRedBase) {
+    public init(title: String, width: CGFloat ,backgroundColor: UIColor = Colors.primaryRedBase) {
         super.init(frame: .zero)
         setupButton(title: title, icon: nil, iconPosition: nil, backgroundColor: backgroundColor)
     }
